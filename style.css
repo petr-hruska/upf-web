@@ -69,10 +69,9 @@ body {
 }
 
 .seminar-content {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: auto 320px;
     gap: 15px;
-    align-items: start;
 }
 
 .seminar-text {
