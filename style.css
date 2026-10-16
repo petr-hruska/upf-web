@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 30px;
 }
@@ -72,44 +72,44 @@ body {
 
 .seminar-content {
 
-    display: grid;
+    display: flex;
 
-    grid-template-columns:
-        fit-content(600px)
-        320px;
+    flex-wrap: wrap;
 
     justify-content: space-between;
 
-    gap: 30px;
+    align-items: flex-start;
+
+    gap: 24px;
 
     padding: 25px;
-
-    align-items: start;
 }
 
 .seminar-text {
-    min-width: 600px;
+
+    flex: 1 1 500px;
+
+    max-width: 650px;
 }
 
 .seminar-image {
 
-    justify-self: end;
+    flex: 0 0 320px;
 
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    margin-left: auto;
 }
 
 .seminar-image img {
 
     width: 320px;
+
     height: auto;
+
+    display: block;
 
     border-radius: 10px;
 
     border: 1px solid #ddd;
-
-    display: block;
 }
 
 a {
