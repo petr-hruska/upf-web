@@ -71,45 +71,29 @@ body {
 }
 
 .seminar-content {
-
     display: flex;
-
     flex-wrap: wrap;
-
-    justify-content: space-between;
-
     align-items: flex-start;
-
-    gap: 24px;
-
+    gap: 30px;
     padding: 25px;
 }
 
 .seminar-text {
-
     flex: 1 1 500px;
-
-    max-width: 650px;
+    max-width: 700px;
 }
 
 .seminar-image {
-
-    flex: 0 0 320px;
-
+    flex: 0 0 350px;
     margin-left: auto;
 }
 
 .seminar-image img {
-
-    width: 320px;
-
+    width: 350px;
     height: auto;
-
-    display: block;
-
     border-radius: 10px;
-
     border: 1px solid #ddd;
+    display: block;
 }
 
 a {
@@ -128,16 +112,7 @@ footer {
 }
 
 @media (max-width: 850px) {
-
-    .seminar-content {
-
-        grid-template-columns: 1fr;
-
-        gap: 20px;
-    }
-
     .seminar-image {
-
-        justify-self: start;
+        margin-left: 0;
     }
 }
