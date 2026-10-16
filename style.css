@@ -111,6 +111,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    row-gap: 12px;
 }
 
 .seminar-image img {
@@ -144,5 +145,19 @@ footer {
     .seminar-image {
         margin-left: 0;
         align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    .hero,
+    .card,
+    .seminar-content {
+        padding: 18px;
+    }
+    .seminar summary {
+        padding: 14px 18px;
     }
 }
