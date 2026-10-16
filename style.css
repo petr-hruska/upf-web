@@ -44,13 +44,12 @@ body {
 }
 
 .quick-links a {
-    background: #e5f0ff;
+    background: #edf4ff;
+    border: 1px solid #c5d9ff;
     color: #003366;
     padding: 8px 14px;
     border-radius: 999px;
     font-weight: 600;
-    text-decoration: none;
-    transition: 0.2s;
 }
 
 .quick-links a:hover {
