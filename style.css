@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: blue;
+    background: #f4f6f9;
     font-family: "Segoe UI", Arial, sans-serif;
     color: #222;
     line-height: 1.6;
@@ -73,6 +73,7 @@ body {
 .seminar-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 30px;
     padding: 25px;
@@ -86,6 +87,9 @@ body {
 .seminar-image {
     flex: 0 0 350px;
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .seminar-image img {
@@ -111,8 +115,9 @@ footer {
     margin-top: 40px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
     .seminar-image {
         margin-left: 0;
+        align-items: flex-start;
     }
 }
