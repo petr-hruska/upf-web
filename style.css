@@ -69,19 +69,20 @@ body {
 }
 
 .seminar-content {
-    display: inline-grid;
-    grid-template-columns: auto 320px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
     gap: 15px;
+    align-items: start;
 }
 
 .seminar-text {
     max-width: 600px;
 }
 
-.seminar-image {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.seminar-image img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
 }
 
 .seminar-image img {
@@ -108,12 +109,11 @@ footer {
 @media (max-width: 900px) {
 
     .seminar-content {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
-    .seminar-image img {
-        width: 100%;
-        max-width: 500px;
+    .seminar-image {
+        justify-self: start;
     }
 
 }
