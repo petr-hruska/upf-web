@@ -6,10 +6,10 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 30px;
+.seminar-content {
+    display: grid;
+    grid-template-columns: minmax(500px, 700px) 350px;
+    gap: 20px;
 }
 
 .hero {
