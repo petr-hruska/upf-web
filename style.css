@@ -114,7 +114,8 @@ body {
 }
 
 .seminar-image img {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: auto;
     border-radius: 10px;
     border: 1px solid #ddd;
@@ -137,6 +138,9 @@ footer {
 }
 
 @media (max-width: 1000px) {
+    .seminar-content {
+        gap: 20px;
+    }
     .seminar-image {
         margin-left: 0;
         align-items: flex-start;
