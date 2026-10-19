@@ -11,45 +11,53 @@
 
 <body>
 
+<!-- ====================================================== -->
+<!-- HLAVIČKA PŘEDMĚTU                                      -->
+<!-- ====================================================== -->
 <div class="container">
 
     <header class="hero">
 
-        <h1>Úvod do praktické fyziky</h1>
-        <h2>NOFY055</h2>
+    <h1>Úvod do praktické fyziky</h1>
+    <h2>NOFY055</h2>
+    
+    <p class="teacher">
+        RNDr. Petr Hruška, Ph.D.
+    </p>
+    
+    <p>
+        Katedra fyziky nízkých teplot
+    </p>
+    
+    <p>
+        📍 L164, budova L, 1. patro, Troja<br>
+        ✉ <a href="mailto:petr.hruska@matfyz.cuni.cz">petr.hruska@matfyz.cuni.cz</a><br>
+        💬 Konzultace před/po semináři nebo po domluvě
+    </p>
+    
+    <div class="quick-links">
+    
+        <a href="#organizace">
+            Organizační informace
+        </a>
+    
+        <a href="#software">
+            Používaný software
+        </a>
+    
+        <a href="#materialy">
+            Doplňkové materiály
+        </a>
+    
+        <a href="#testy">
+            Zápočtové testy
+        </a>
+    
+        <a href="#seminare">
+            Semináře
+        </a>
 
-        <p class="teacher">
-            RNDr. Petr Hruška, Ph.D.
-        </p>
-
-        <p>
-            místnost L164, 1. patro, Těžké laboratoře Troja
-        </p>
-
-        <p>
-            Skupina 1: středa 15:40, učebna T9<br>
-            Skupina 2: čtvrtek 10:40, učebna T5
-        </p>
-
-        <div class="quick-links">
-
-            <a href="#organizace">
-                Organizační informace
-            </a>
-        
-            <a href="#materialy">
-                Doporučené materiály
-            </a>
-        
-            <a href="#testy">
-                Zápočtové testy
-            </a>
-        
-            <a href="#seminare">
-                Semináře
-            </a>
-        
-        </div>
+</div>
 
     </header>
 
@@ -57,52 +65,224 @@
 <!-- ORGANIZAČNÍ INFORMACE                                  -->
 <!-- ====================================================== -->
     <section id="organizace" class="card">
-    
-        <h3>Organizační informace</h3>
-            <ul>
-            <li>
-                <a href="pdf/UPF-uvodni-informace-PH.pdf" target="_blank">
-                    Úvodní informace a podmínky zápočtu
-                </a>
-            </li>
+
+    <h3>Organizační informace</h3>
+
+    <ul>
+        <li>Účast na seminářích není povinná.</li>
+        <li>Během semestru proběhnou dva zápočtové testy.</li>
+        <li>Každý test je hodnocen 0–15 body.</li>
+        <li>Pro získání zápočtu je nutné získat alespoň 16 bodů celkem.</li>
+        <li>Po dohodě je možné absolvovat opravný zápočtový test.</li>
+        <li>Doporučuji průběžně řešit seminární úlohy.</li>
+    </ul>
+
+    <p>
+        <a href="pdf/UPF-uvodni-informace-PH.pdf" target="_blank">
+            Kompletní úvodní informace a podmínky zápočtu (PDF)
+        </a>
+    </p>
+
+    <details>
+
+        <summary>
+            Doporučená literatura
+        </summary>
+
+        <ul>
+            <li>J. Englich: Úvod do praktické fyziky I (Matfyzpress, Praha 2006)</li>
+            <li>W.T. Eadie et al.: Statistical Methods in Experimental Physics</li>
+            <li>G. Cowan: Statistical Data Analysis</li>
+            <li>R.J. Barlow: Statistics. A Guide to the Use of Statistical Methods in the Physical Sciences</li>
         </ul>
-    
+
+    </details>
+
+    <details>
+
+        <summary>
+            Podmínky zápočtu
+        </summary>
+
+        <ul>
+            <li>1. zápočtový test po 6. semináři</li>
+            <li>2. zápočtový test na konci semestru</li>
+            <li>45 minut na vypracování</li>
+            <li>2 příklady (10 + 5 bodů)</li>
+            <li>Minimum pro zápočet: 16 bodů</li>
+        </ul>
+
+    </details>
+
+    <details>
+
+        <summary>
+            Povolené a zakázané pomůcky
+        </summary>
+
+        <ul>
+            <li><strong>Doporučené:</strong> vlastní poznámky, kalkulačka, doporučená literatura</li>
+            <li><strong>Sporné:</strong> cizí poznámky, jiný software, umělá inteligence</li>
+            <li><strong>Zakázané:</strong> jakákoli pomoc třetí osoby</li>
+        </ul>
+
+    </details>
+
+    <details>
+
+        <summary>
+            Sylabus předmětu
+        </summary>
+
+        <ol>
+            <li>Statistická a systematická chyba</li>
+            <li>Maximální chyba a měřicí přístroje</li>
+            <li>Náhodná proměnná a pravděpodobnost</li>
+            <li>Histogram a momenty rozdělení</li>
+            <li>Binomické a Poissonovo rozdělení</li>
+            <li>Normální a Cauchyho rozdělení</li>
+            <li>Centrální limitní věta, korelace</li>
+            <li>Testování hypotéz</li>
+            <li>Metoda přenosu chyb</li>
+            <li>Maximální věrohodnost, lineární regrese</li>
+            <li>Metoda nejmenších čtverců</li>
+            <li>Chí-kvadrát test kvality fitu</li>
+        </ol>
+
+    </details>
+
     </section>
 
 <!-- ====================================================== -->
-<!-- DOPORUČENÉ MATERIÁLY                                   -->
+<!-- POUŽÍVANÝ SOFTWARE                                     -->
+<!-- ====================================================== -->
+    <section id="software" class="card">
+
+    <h3>Používaný software</h3>
+
+    <p>
+        Během seminářů budeme používat několik programových nástrojů
+        pro zpracování a analýzu experimentálních dat.
+    </p>
+
+    <details>
+
+        <summary>
+            Microsoft Excel
+        </summary>
+
+        <ul>
+            <li>Většina úvodních příkladů bude řešena v Excelu.</li>
+            <li>Příklady používají českou lokalizaci.</li>
+            <li>Studenti MFF mají přístup ke službě Office 365.</li>
+        </ul>
+
+    </details>
+
+    <details>
+
+        <summary>
+            Python
+        </summary>
+
+        <ul>
+            <li>Doporučená distribuce: Anaconda</li>
+            <li>Doporučené vývojové prostředí: Spyder</li>
+            <li>Používán pro simulace, statistiku a vizualizaci dat.</li>
+        </ul>
+
+    </details>
+
+    <details>
+
+        <summary>
+            Origin
+        </summary>
+
+        <ul>
+            <li>Profesionální software pro zpracování experimentálních dat.</li>
+            <li>Využíván zejména ve vyšších seminářích.</li>
+            <li>Studenti mají přístup k fakultní licenci.</li>
+        </ul>
+
+    </details>
+
+    <details>
+
+        <summary>
+            Matlab
+        </summary>
+
+        <ul>
+            <li>Ukázky lineární regrese a fitování dat.</li>
+            <li>Studenti MFF mají přístup k celofakultní licenci.</li>
+        </ul>
+
+    </details>
+
+    <details>
+
+        <summary>
+            Gnuplot
+        </summary>
+
+        <ul>
+            <li>Volně dostupný software.</li>
+            <li>Využit pro jednoduché grafické výstupy a demonstrace rozdělení pravděpodobnosti.</li>
+        </ul>
+
+    </details>
+
+    <p>
+        Podrobné odkazy ke stažení a instalaci:
+        <a href="https://physics.mff.cuni.cz/kfnt/vyuka/upf/" target="_blank">
+            stránka software k předmětu
+        </a>
+    </p>
+
+    </section>
+    
+<!-- ====================================================== -->
+<!-- DOPLŇKOVÉ MATERIÁLY                                    -->
 <!-- ====================================================== -->    
     <section id="materialy" class="card">
-    
-        <h3>Doporučené materiály</h3>
-        <ul>
-            <li>
-                <a href="https://physics.mff.cuni.cz/kfnt/vyuka/upf/cizek/" target="_blank">
-                    Videozáznamy přednášek prof. Čížka
-                </a>
-            </li>
-            <li>
-                <a href="https://physics.mff.cuni.cz/vyuka/zfp/" target="_blank">
-                    Materiály Základního fyzikálního praktika
-                </a>
-            </li>
-            <li>
-                <a href="pdf/ZFP-vysledky-mereni.pptx" target="_blank">
-                    Zápis výsledků měření
-                </a>
-            </li>
-            <li>
-                <a href="https://physics.mff.cuni.cz/vyuka/zfp/zadani/199" target="_blank">
-                    Úloha Z (Základní fyzikální praktikum)
-                </a>
-            </li>
-            <li>
-                <a href="pdf/linregrese_2025.pdf" target="_blank">
-                    Lineární regrese (doc. Křivka)
-                </a>
-            </li>
-        </ul>
-    
+
+    <h3>Doplňkové materiály</h3>
+
+    <ul>
+
+        <li>
+            <a href="https://physics.mff.cuni.cz/kfnt/vyuka/upf/cizek/" target="_blank">
+                Videozáznamy přednášek prof. Čížka
+            </a>
+        </li>
+
+        <li>
+            <a href="https://physics.mff.cuni.cz/vyuka/zfp/" target="_blank">
+                Materiály Základního fyzikálního praktika
+            </a>
+        </li>
+
+        <li>
+            <a href="pdf/ZFP-vysledky-mereni.pptx" target="_blank">
+                Zápis výsledků měření
+            </a>
+        </li>
+
+        <li>
+            <a href="https://physics.mff.cuni.cz/vyuka/zfp/zadani/199" target="_blank">
+                Úloha Z (Základní fyzikální praktikum)
+            </a>
+        </li>
+
+        <li>
+            <a href="pdf/linregrese_2025.pdf" target="_blank">
+                Lineární regrese (doc. Křivka)
+            </a>
+        </li>
+
+    </ul>
+
     </section>
 
 <!-- ====================================================== -->
