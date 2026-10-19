@@ -36,6 +36,23 @@ body {
     font-size: 1.1rem;
 }
 
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.contact-icon {
+    width: 24px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
 .quick-links {
     display: flex;
     flex-wrap: wrap;
