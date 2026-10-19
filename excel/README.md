@@ -1,0 +1,1 @@
+Řešené úlohy v Excelu.
