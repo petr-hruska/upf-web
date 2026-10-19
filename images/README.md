@@ -1,1 +1,1 @@
-
+Ilustrační obrázky k seminářům.
